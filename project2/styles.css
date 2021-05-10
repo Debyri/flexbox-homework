@@ -4,7 +4,7 @@
 }
 .main-wrapper {
     background-color: #e2e7ec;
-    padding: 0px 240px;
+    padding: 0px 240px 100px 240px;
 }
 .flex-container {
     padding: 0;
@@ -16,10 +16,10 @@
 }
 .flex-item {
     height: 377px;
+    width: 30%;
     box-sizing: border-box;
     margin-top: 20px;
     list-style: none;
-    width: 30%;
     background-color: #fff;
 }
 
@@ -38,11 +38,12 @@
     color: #1d1d1d;
 }
 .car {
-    width: 62%;
+    width: 62.5%;
     padding: 30px;
     background-image: url(./images/fleximg.jpg);
     background-size: cover;
     background-position: center;
+    transition: ease-in-out 0.2s;
 }
 .banner-content {
     margin-top: 240px;
@@ -62,7 +63,8 @@
     background-size: cover;
     background-position: center;
     margin: 0;
-    height: 40%;
+    height: 45%;
+    transition: ease-in-out 0.2s;
 }
 .item-content {
     margin: 0;
@@ -72,7 +74,7 @@
     opacity: 0;
 }
 .content-author {
-    margin-top: 45px;
+    margin-top: 30px;
 }
 .item-banner.glasses {
     background-image: url(./images/Layer\ 2.jpg);
@@ -92,13 +94,25 @@
     display: flex;
     align-content: center;
     justify-content: center;
+    align-items: center;
     opacity: .5;
+    margin-top: 70px;
 }
 .loading {
+    font-size: 12px;
+    line-height: 12px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     text-transform: uppercase;
     margin-left: 10px;
+}
+.loading-wrapper img {
+    width: 20px;
+    height: 20px;
+}
+.flex-item:hover .item-banner, .car:hover {
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: darken;
 }
 
 
