@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Hans Kendrick';
+    src: url(./HansKendrick.otf);
+}
+.main-wrapper {
+    background-color: #e2e7ec;
+    padding: 0px 240px;
+}
+.flex-container {
+    padding: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.flex-item {
+    height: 377px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    list-style: none;
+    width: 30%;
+    background-color: #fff;
+}
+
+.content-header, .content-date {
+    font-family: 'Hans Kendrick';
+    text-transform: uppercase;
+}
+.content-date {
+    font-size: 12px;
+    color: #818181;
+}
+
+.content-header {
+    font-size: 15px;
+    line-height: 20px;
+    color: #1d1d1d;
+}
+.car {
+    width: 62%;
+    padding: 30px;
+    background-image: url(./images/fleximg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner-content {
+    margin-top: 240px;
+}
+.car .content-header {
+    width: 80%;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+.car .content-date {
+    color: #fff;
+}
+.item-banner {
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 40%;
+}
+.item-content {
+    margin: 0;
+    padding: 20px;
+}
+.hide {
+    opacity: 0;
+}
+.content-author {
+    margin-top: 45px;
+}
+.item-banner.glasses {
+    background-image: url(./images/Layer\ 2.jpg);
+}
+
+.item-banner.girls {
+    background-image: url(./images/Layer\ 5.jpg);
+}
+.item-banner.shoes {
+    background-image: url(./images/Layer\ 7.jpg);
+}
+
+.item-banner.landscape {
+    background-image: url(./images/Layer\ 9.jpg);
+}
+.loading-wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    opacity: .5;
+}
+.loading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+
+
+
+
+
